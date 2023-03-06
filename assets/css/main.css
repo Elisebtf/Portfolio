@@ -656,9 +656,9 @@ div[class*=box] {
 
 
 
-.header--cta {
+ .header--cta {
     position: absolute;
-    top: 100%;
+    top: 10%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -882,7 +882,7 @@ div[class*=box] {
     position: absolute;
     bottom: 22px;
     right: -2px;
-    width: 374px;
+    width: 378px;
     height: 660px;
 }
 
@@ -1249,7 +1249,7 @@ div[class*=box] {
 
 .about--banner {
     position: relative;
-    height: 475px
+    height: 348px
 }
 
 .about--banner::before {
@@ -1380,12 +1380,14 @@ div[class*=box] {
 
 .about--options h3 {
     position: absolute;
-    bottom: -38px;
-    left: 10px;
-    font-size: 16px;
+    bottom: -25px;
+    left: 6px;
+    font-size: 19px;
     text-transform: uppercase;
     -webkit-transition: bottom .2s ease-in-out, left .2s ease-in-out;
-    transition: bottom .2s ease-in-out, left .2s ease-in-out
+    transition: bottom .2s ease-in-out, left .2s ease-in-out;
+    color: white;
+    text-align: center;
 }
 
 @media (max-width: 767px) {
@@ -1466,7 +1468,7 @@ div[class*=box] {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../img/maps.png");
+    background-image: url("../img/maps2.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
@@ -1935,7 +1937,7 @@ div[class*=box] {
     -webkit-transform: translate(-50%, -25%);
     transform: translate(-50%, -25%);
     width: 110%;
-    height: 15px;
+    height: 11px;
     opacity: 0;
     background-color: #d1c0ae ; 
 }
