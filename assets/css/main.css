@@ -101,7 +101,7 @@ dfn {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;  
-    color: #d1c0ae;
+    color: #c9ada7;
 }
 
 mark {
@@ -279,7 +279,7 @@ body {
 }
 
 body {
-    background-color: #363b46;
+    background-color: #4a4e69;
     font-size: 14px;
     line-height: 1.6;
     font-family: "Montserrat", sans-serif;
@@ -516,6 +516,11 @@ body {
     text-transform: uppercase
 }
 
+#eblogo{
+    width: 105px;
+    margin-top: 72%;
+}
+
 .header--nav-toggle {
     display: -webkit-box;
     display: -webkit-flex;
@@ -668,7 +673,7 @@ div[class*=box] {
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #bebcb8;
+    background-color: #9a8c98;
     border: none;
     opacity: 0;
     visibility: hidden;
@@ -739,7 +744,7 @@ div[class*=box] {
     position: absolute;
     top: 3px;
     left: 10px;
-    color: #555;
+    color: #f2e9e4;
     font-size: 14px;
     font-weight: 300
 }
@@ -765,7 +770,7 @@ div[class*=box] {
 }
 
 .side-nav li.is-active {
-    color: #d1c0ae;
+    color: #c9ada7;
     -webkit-transition: color .4s ease-in-out;
     transition: color .4s ease-in-out
 }
@@ -914,7 +919,7 @@ div[class*=box] {
 
 .intro--options h3 {
     font-size: 16px;
-    color:#d1c0ae;
+    color:#c9ada7;
     text-transform: uppercase
 }
 
@@ -966,6 +971,10 @@ div[class*=box] {
         display: block;
         max-width: 100%;
         margin: 0 0 30px 0
+    }
+    #eblogo{
+        width: 55px;
+        margin-top: 72%;
     }
 
     .intro--options>a:last-child {
@@ -1036,7 +1045,8 @@ div[class*=box] {
 .work h2 {
     margin: 0 0 20px 0;
     font-size: 30px;
-    text-align: center
+    text-align: center;
+    color: #c9ada7;
 }
 
 .work--lockup {
@@ -1263,7 +1273,7 @@ div[class*=box] {
     font-weight: 900;
     line-height: 1;
     z-index: 1; 
-    color : #d1c0ae
+    color : #c9ada7
 }
 
 
@@ -1314,28 +1324,30 @@ div[class*=box] {
 }
 
 
+
+
 .about--options>a {
     position: relative;
     width: 150px;
     height: 75px;
     text-decoration: none;
     color: #fff;
-    border: 10px solid #bebcb8;
+    border: 10px solid #9a8c98;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
 }
 
 .about--options>a:nth-child(1) {
-    background-image: url("../img/about-winners.jpg")
+    background-color: #22223b;
 }
 
 .about--options>a:nth-child(2) {
-    background-image: url("../img/about-philosophy.jpg")
+    background-color: #22223b;
 }
 
 .about--options>a:nth-child(3) {
-    background-image: url("../img/about-history.jpg")
+    background-color: #22223b;
 }
 
 .about--options>a:hover h3 {
@@ -1514,7 +1526,7 @@ div[class*=box] {
 .contact--lockup .modal {
     padding: 45px 45px;
     text-align: center;
-    background-color: #d1c0ae;
+    background-color: #c9ada7;
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.75)
 }
 
@@ -1839,7 +1851,7 @@ div[class*=box] {
     -webkit-transform: translateZ(0) translateX(0) rotateY(0deg);
     transform: translateZ(0) translateX(0) rotateY(0deg);
     min-height: 100%;
-    outline: 30px solid #d1c0ae;
+    outline: 30px solid #c9ada7;
     -webkit-transition: -webkit-transform .4s;
     transition: -webkit-transform .4s;
     transition: transform .4s;
@@ -1867,7 +1879,7 @@ div[class*=box] {
 .effect-rotate-left--animate .container {
     -webkit-transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
     transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
-    outline: 30px solid #d1c0ae
+    outline: 30px solid #c9ada7;
 }
 
 .outer-nav {
@@ -1941,7 +1953,7 @@ div[class*=box] {
     width: 110%;
     height: 11px;
     opacity: 0;
-    background-color: #d1c0ae ; 
+    background-color: #c9ada7 ; 
 }
 
 .outer-nav>li.is-active::before {
