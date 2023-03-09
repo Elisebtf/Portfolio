@@ -886,9 +886,9 @@ div[class*=box] {
 .intro--banner img {
     position: absolute;
     bottom: 22px;
-    right: -2px;
-    width: 311px;
-    height: 514px;
+    right: -123px;
+    width: 515px;
+    height: 387px;
 }
 
 .intro--options {
